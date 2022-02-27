@@ -4,7 +4,7 @@ let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
 const thumb = fs.readFileSync('./src/thumb-1920-461825.png')
 let tags = {
-  'main': 'MAIN',
+  'main': '👑 MAIN 👑',
   'info': 'INFO',
   'game': 'GAME',
   'xp': 'EXP & LIMIT',
@@ -34,18 +34,18 @@ let tags = {
 const defaultMenu = {
   before: `
 
-🙋🏻‍♂️ Yoo! %name, how can i help you?
+🌞 Yoo! %name, how can i help you?
 
-🪵 Left: *%limit Limit*
+🕯 Left: *%limit Limit*
 🎗️ Role: *%role*
-🛕 Level: *%level* 
-☕ Total XP: *%totalexp*
+⚡ Level: *%level* 
+🔥 Total XP: *%totalexp*
 
-〽️ Prefix: *%p*
+⚔ Prefix: *%p*
 📅 Date: *%week, %date*
 💠 Github: github.com/Chingkheinganba06/tokio-wabot
 
-📣 All usable commands are listed below ⬇️
+⛩ All usable commands are listed below ⛩
 
 %readmore`.trimStart(),
   header: '        *❄━━❰･%category･❱━━❄*',
